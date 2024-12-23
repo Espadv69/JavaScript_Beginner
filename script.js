@@ -46,7 +46,10 @@ console.log(myOtherArray[0]); // Prints 'Hello'. Arrays are zero-based.
 console.log(myArray.concat(myOtherArray)); // Prints ['Hello, it's me!', 'Hello', 20]. Concat is a method that concatenates two arrays.
 
 // How to use an object method in JavaScript. ---------------------
-const myObject = { firstName: 'Aitor', lastName: 'Díaz', isDeveloper: true}; // Creates an object with three properties.
+const myObject = { firstName: 'Aitor', lastName: 'Díaz', ig: '@espadv._', isDeveloper: true}; // Creates an object with three properties.
+const field = 'ig'; // We can use a variable to access an object property.
+console.log(myObject[field]); // Prints '@espadv._', because field is 'ig'.
+
 const myOtherObject = {
   firstName: 'Pepe',
   lastName: 'García',
@@ -56,4 +59,4 @@ const myOtherObject = {
 
 // How to access an object property in JavaScript.
 console.log(myObject.firstName); // Prints 'Aitor'.
-console.log(myOtherObject.links[0]); // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.
+console.log(myOtherObject.links[1]); // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.e
