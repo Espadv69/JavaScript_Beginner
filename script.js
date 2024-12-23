@@ -40,3 +40,7 @@ console.log(myArray); // Prints an empty array [].
 
 myArray.push('Hello, it\'s me!'); // push is a method that adds an element to the end of an array.
 console.log(myArray); // Prints ['Hello, it's me!'].
+
+const myOtherArray = ['Hello', 20]; // Creates an array with two elements.
+console.log(myOtherArray[0]); // Prints 'Hello'. Arrays are zero-based.
+console.log(myArray.concat(myOtherArray)); // Prints ['Hello, it's me!', 'Hello', 20]. Concat is a method that concatenates two arrays.
