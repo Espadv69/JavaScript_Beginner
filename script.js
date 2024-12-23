@@ -62,8 +62,7 @@ console.log(myObject.firstName); // Prints 'Aitor'.
 console.log(myOtherObject.links[1]); // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.e
 
 // How to use a simple function in JavaScript. ---------------------
-// This is an arrow function. It's a simple way to declare a function.
-const sumar = (operando_1, operando_2) => {
+const sumar = (operando_1, operando_2) => { // Function expression that receives two arguments.
   console.log(operando_1); // Prints the value of operando_1.
   console.log(operando_2); // Prints the value of operando_2.
   return operando_1 + operando_2; // Returns the sum of operando_1 and operando_2.
@@ -72,7 +71,7 @@ const sumar = (operando_1, operando_2) => {
 console.log(sumar(2, 3)); // Prints 2 and 3, and returns 5.
 
 // Other way to do the same function.
-function sumar_2(operando_1, operando_2) {
+function sumar_2(operando_1, operando_2) { // Function declaration that receives two arguments.
   console.log(operando_1);
   console.log(operando_2);
   return operando_1 + operando_2;
