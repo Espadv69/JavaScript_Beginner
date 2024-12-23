@@ -13,8 +13,8 @@ console.log(realName); // Now prints 'Pepe'.
 
 /*
 
-  TYPES OF VARIABLES
-----------------------------
+  Primitive data types in JavaScript:
+---------------------------------------
   - Strings: 'Hello, world!'
   - Numbers: 42
   - Booleans: true or false
@@ -27,3 +27,4 @@ console.log(realName); // Now prints 'Pepe'.
 
 
 */
+
