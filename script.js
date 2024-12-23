@@ -78,4 +78,7 @@ function sumar_2(operando_1, operando_2) {
   return operando_1 + operando_2;
 }
 
-console.log(sumar_2(2, 3)); 
+const num1 = 2; // Declares a variable with the value 2.
+const num2 = 3; // Declares a variable with the value 3.
+
+console.log(sumar_2(num1, num2)); // so we can use variables as arguments in a function.
