@@ -53,3 +53,7 @@ const myOtherObject = {
   isDeveloper: false,
   links: ['https://twitter.com', 'https://github.com'] // Objects can contain arrays.
 }; // Other way to format an object.
+
+// How to access an object property in JavaScript.
+console.log(myObject.firstName); // Prints 'Aitor'.
+console.log(myOtherObject.links[0]); // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.
