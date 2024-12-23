@@ -7,3 +7,6 @@ var isDeveloper = true; // var is a keyword that declares a global variable. var
 console.log(realName); // Prints 'Aitor'.
 console.log(lastName); // Prints 'Díaz'.
 console.log(isDeveloper); // Prints 'true', because isDeveloper is a boolean variable.
+
+realName = 'Pepe'; // Changes the value of realName to 'Pepe'. This is possible because realName is a variable.
+console.log(realName); // Now prints 'Pepe'.
