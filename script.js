@@ -47,3 +47,8 @@ console.log(myArray.concat(myOtherArray)); // Prints ['Hello, it's me!', 'Hello'
 
 // How to use an object method in JavaScript. ---------------------
 const myObject = { firstName: 'Aitor', lastName: 'Díaz', isDeveloper: true}; // Creates an object with three properties.
+const myOtherObject = {
+  firstName: 'Pepe',
+  lastName: 'García',
+  isDeveloper: false
+}; // Other way to create an object with three properties.
