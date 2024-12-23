@@ -5,3 +5,5 @@ const lastName = 'Díaz'; // const is a keyword that declares a constant. const 
 var isDeveloper = true; // var is a keyword that declares a global variable. var is a variable, so it can be changed.
 
 console.log(realName); // Prints 'Aitor'.
+console.log(lastName); // Prints 'Díaz'.
+console.log(isDeveloper); // Prints 'true', because isDeveloper is a boolean variable.
