@@ -50,5 +50,6 @@ const myObject = { firstName: 'Aitor', lastName: 'Díaz', isDeveloper: true}; //
 const myOtherObject = {
   firstName: 'Pepe',
   lastName: 'García',
-  isDeveloper: false
-}; // Other way to create an object with three properties.
+  isDeveloper: false,
+  links: ['https://twitter.com', 'https://github.com'] // Objects can contain arrays.
+}; // Other way to format an object.
