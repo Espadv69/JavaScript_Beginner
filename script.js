@@ -46,3 +46,4 @@ console.log(myOtherArray[0]); // Prints 'Hello'. Arrays are zero-based.
 console.log(myArray.concat(myOtherArray)); // Prints ['Hello, it's me!', 'Hello', 20]. Concat is a method that concatenates two arrays.
 
 // How to use an object method in JavaScript. ---------------------
+const myObject = { firstName: 'Aitor', lastName: 'Díaz', isDeveloper: true}; // Creates an object with three properties.
