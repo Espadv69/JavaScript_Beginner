@@ -1,0 +1,1 @@
+console.log('Hello, world!'); // console.log is a function that prints to the console.
