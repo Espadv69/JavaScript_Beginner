@@ -25,6 +25,5 @@ console.log(realName); // Now prints 'Pepe'.
   - Symbols: Symbol() (A unique and inmutable and unique value)
   - BigInt: 9007199254740991n (A number that can be bigger than the Number type)
 
-
 */
 
