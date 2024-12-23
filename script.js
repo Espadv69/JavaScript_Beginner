@@ -27,9 +27,16 @@ console.log(realName); // Now prints 'Pepe'.
 
 */
 
+// How to use a string method in JavaScript. ---------------------
 const myString = 'Hello, world!';
 console.log(myString); // Prints 'Hello, world!'.
 
 const myStringToUpperCase = myString.toUpperCase(); // toUpperCase is a method that converts a string to uppercase.
 console.log(myStringToUpperCase); // Prints 'HELLO, WORLD!'.
 
+// How to use an array method in JavaScript. ---------------------
+const myArray = [];
+console.log(myArray); // Prints an empty array [].
+
+myArray.push('Hello, it\'s me!'); // push is a method that adds an element to the end of an array.
+console.log(myArray); // Prints ['Hello, it's me!'].
