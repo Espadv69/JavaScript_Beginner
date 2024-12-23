@@ -27,3 +27,9 @@ console.log(realName); // Now prints 'Pepe'.
 
 */
 
+const myString = 'Hello, world!';
+console.log(myString); // Prints 'Hello, world!'.
+
+const myStringToUpperCase = myString.toUpperCase(); // toUpperCase is a method that converts a string to uppercase.
+console.log(myStringToUpperCase); // Prints 'HELLO, WORLD!'.
+
