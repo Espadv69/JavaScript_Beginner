@@ -132,6 +132,3 @@ console.log(3 - 2); // Prints 1. This subtracts 2 from 3.
 console.log(3 * 3); // Prints 9. This multiplies 3 by 3.
 console.log(3 / 2); // Prints 1.5. This divides 3 by 2.
 console.log(10 % 3); // Prints 1. This returns the remainder of the division of 10 by 3.
-console.log(3++); // Prints 4. This increments 3 by 1. The same as 3 += 1 or 3 = 3 + 1.
-console.log(3--); // Prints 2. This decrements 3 by 1. The same as 3 -= 1 or 3 = 3 - 1.
-
