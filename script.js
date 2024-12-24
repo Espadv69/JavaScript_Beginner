@@ -164,3 +164,18 @@ console.log(myAssignmentOperator); // Prints 8.
 // *- The same with the other operators. -*
 
 // comparison operators
+let a = 3; // Declares a variable with the value 3.
+
+console.log(a > 3); // Prints false. Because 3 is not greater than 3.
+console.log(a >= 3); // Prints true. Because 3 is greater than or equal to 3.
+console.log(a < 3); // Prints false. Because 3 is not less than 3.
+console.log(a <= 3); // Prints true. Because 3 is less than or equal to 3.
+console.log(a == 3); // Prints true. Because 3 is equal to 3.
+console.log(a == '3'); // Prints true. Because 3 is equal to '3'. This is a type coercion.
+console.log(a === 3); // Prints true. Because 3 is equal to 3 and the data type is the same.
+console.log(a === '3'); // Prints false. Because 3 is not equal to '3' cause the data type is different.
+console.log(a != 3); // Prints false. Because 3 is not different from 3.
+console.log(a !== '3'); // Prints true. Because 3 is different from '3'.
+console.log(undefined == null); // Prints true. Because undefined is equal to null.
+console.log(undefined === null); // Prints false. Because undefined is not the same type as null.
+// *- Then == not compares the data type, but === does. -*
