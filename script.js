@@ -112,3 +112,16 @@ console.log(sumar_2(num1, num2)); // so we can use variables as arguments in a f
 // ---------------------
 
 
+// How to see the data type of a variable in JavaScript ---------------------
+const myTypeOfVariable = 'Hello, world!'; // Declares a variable with a string value.
+console.log(typeof(myTypeOfVariable)); // Prints 'string', because myTypeOfVariable is a string variable.
+
+const myOtherTypeOfVariable = 42; // Declares a variable with a number value.
+console.log(typeof(myOtherTypeOfVariable)); // Prints 'number', because myOtherTypeOfVariable is a number variable.
+
+const myBooleanTypeOfVariable = true; // Declares a variable with a boolean value.
+console.log(typeof(myBooleanTypeOfVariable)); // Prints 'boolean', because myBooleanTypeOfVariable is a boolean value.
+// Then we can see the data type of a variable using the typeof operator.
+// ---------------------
+
+
