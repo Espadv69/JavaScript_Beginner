@@ -154,3 +154,13 @@ console.log(5 ** 2); // Prints 25. This raises 5 to the power of 2.
   *- let y = 5;
   *- console.log(y++); // This will print 5, because the increment operator is after the variable. (++y) will print 6.
 */
+
+// assignment operators
+let myAssignmentOperator = 5; // Declares a variable with the value 5.
+console.log(myAssignmentOperator); // Prints 5.
+
+myAssignmentOperator += 3; // Adds 3 to myAssignmentOperator. This is the same as myAssignmentOperator = myAssignmentOperator + 3.
+console.log(myAssignmentOperator); // Prints 8.
+// *- The same with the other operators. -*
+
+// comparison operators
