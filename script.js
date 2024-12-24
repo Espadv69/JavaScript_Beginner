@@ -5,12 +5,14 @@
   - Strings: 'Hello, world!'
   - Numbers: 42
   - Booleans: true or false
-  - Arrays: ['Hello', 'World', 42, true] (Arrays can contain any type of variable)
-  - Objects: { realName: 'Aitor', lastName: 'Diaz', isDeveloper: true } (Objects can contain any type of variable)
   - Undefined: undefined (A variable that has not been assigned a value)
   - Null: null (A variable that has been assigned a null value)
   - Symbols: Symbol() (A unique and inmutable and unique value)
   - BigInt: 9007199254740991n (A number that can be bigger than the Number type)
+
+*--- Arrays and objects in JavaScript are complex data types where we can store multiple values: ---*
+  - Arrays: ['Hello', 'World', 42, true] (Arrays can contain any type of variable)
+  - Objects: { realName: 'Aitor', lastName: 'Diaz', isDeveloper: true } (Objects can contain any type of variable)
 
 */
 
@@ -108,4 +110,5 @@ const num2 = 3; // Declares a variable with the value 3.
 
 console.log(sumar_2(num1, num2)); // so we can use variables as arguments in a function.
 // ---------------------
+
 
