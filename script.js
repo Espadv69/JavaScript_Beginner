@@ -1,16 +1,3 @@
-console.log('Hello, world!'); // console.log is a function that prints to the console.
-
-let realName = 'Aitor'; // let is keyword that declares a variable. let is a variable, so it can be changed.
-const lastName = 'Díaz'; // const is a keyword that declares a constant. const is a constant, so it can't be changed.
-var isDeveloper = true; // var is a keyword that declares a global variable. var is a variable, so it can be changed.
-
-console.log(realName); // Prints 'Aitor'.
-console.log(lastName); // Prints 'Díaz'.
-console.log(isDeveloper); // Prints 'true', because isDeveloper is a boolean variable.
-
-realName = 'Pepe'; // Changes the value of realName to 'Pepe'. This is possible because realName is a variable.
-console.log(realName); // Now prints 'Pepe'.
-
 /*
 
   Primitive data types in JavaScript:
@@ -26,6 +13,39 @@ console.log(realName); // Now prints 'Pepe'.
   - BigInt: 9007199254740991n (A number that can be bigger than the Number type)
 
 */
+
+/*
+
+  Operators in JavaScript:
+----------------------------
+  - Arithmetic operators: +, -, *, /, %, ++, --
+  - Assignment operators: =, +=, -=, *=, /=, %=
+  - Comparison operators: ==, ===, !=, !==, >, <, >=, <=
+  - Logical operators: &&, ||, !
+  - Bitwise operators: &, |, ~, ^, <<, >>
+  - String operators: +, +=
+  - Conditional (ternary) operator: condition ? expr1 : expr2
+  - Comma operator: expr1, expr2
+  - Unary operators: delete, typeof, void
+  - Relational operators: in, instanceof
+  - Grouping operators: ( )
+  - Miscellaneous operators: ., [], ?., ??
+
+*/
+
+console.log('Hello, world!'); // console.log is a function that prints to the console.
+
+let realName = 'Aitor'; // let is keyword that declares a variable. let is a variable, so it can be changed.
+const lastName = 'Díaz'; // const is a keyword that declares a constant. const is a constant, so it can't be changed.
+var isDeveloper = true; // var is a keyword that declares a global variable. var is a variable, so it can be changed.
+
+console.log(realName); // Prints 'Aitor'.
+console.log(lastName); // Prints 'Díaz'.
+console.log(isDeveloper); // Prints 'true', because isDeveloper is a boolean variable.
+
+realName = 'Pepe'; // Changes the value of realName to 'Pepe'. This is possible because realName is a variable.
+console.log(realName); // Now prints 'Pepe'.
+
 
 // How to use a string method in JavaScript. ---------------------
 const myString = 'Hello, world!';
@@ -89,22 +109,3 @@ const num2 = 3; // Declares a variable with the value 3.
 console.log(sumar_2(num1, num2)); // so we can use variables as arguments in a function.
 // ---------------------
 
-
-/*
-
-  Operators in JavaScript:
-----------------------------
-  - Arithmetic operators: +, -, *, /, %, ++, --
-  - Assignment operators: =, +=, -=, *=, /=, %=
-  - Comparison operators: ==, ===, !=, !==, >, <, >=, <=
-  - Logical operators: &&, ||, !
-  - Bitwise operators: &, |, ~, ^, <<, >>
-  - String operators: +, +=
-  - Conditional (ternary) operator: condition ? expr1 : expr2
-  - Comma operator: expr1, expr2
-  - Unary operators: delete, typeof, void
-  - Relational operators: in, instanceof
-  - Grouping operators: ( )
-  - Miscellaneous operators: ., [], ?., ??
-  
-*/
