@@ -217,3 +217,7 @@ console.log(a > 2 || a < 3); // Prints true. Because a is greater than 2 or less
 console.log(!(a > 2 && a < 4)); // Prints false. Because the result of a > 2 && a < 4 is true, and the negation of true is false.
 // *- (!) is the NOT operator. It returns the opposite of the operand. -*
 
+// ternary operator
+let age = 21; // Declares a variable with the value 21.
+// age = 17; // Uncomment this line to test the other condition.
+const canDrink = age >= 18 ? console.log('you can drink beer 🍺') : console.log('You cannot drink beer 🍺');
