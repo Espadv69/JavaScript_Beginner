@@ -176,6 +176,32 @@ console.log(a === 3); // Prints true. Because 3 is equal to 3 and the data type 
 console.log(a === '3'); // Prints false. Because 3 is not equal to '3' cause the data type is different.
 console.log(a != 3); // Prints false. Because 3 is not different from 3.
 console.log(a !== '3'); // Prints true. Because 3 is different from '3'.
+console.log(0 == false); // Prints true. Because 0 is equal to false in JavaScript.
+console.log(0 === false); // Prints false. Because 0 is not the same type as false.
 console.log(undefined == null); // Prints true. Because undefined is equal to null.
 console.log(undefined === null); // Prints false. Because undefined is not the same type as null.
 // *- Then == not compares the data type, but === does. -*
+
+/*
+
+  Truthy values in JavaScript:
+--------------------------------
+  *- true
+  *- '0'
+  *- ' '
+  *- []
+  *- {}
+  *- function() {}
+  - This means that any value that is not falsy is truthy.
+
+  Falsy values in JavaScript:
+-------------------------------
+  *- false
+  *- 0
+  *- ''
+  *- null
+  *- undefined
+  *- NaN
+  - This means that any value that is not truthy is falsy.
+  
+*/
