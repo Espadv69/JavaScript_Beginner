@@ -58,20 +58,18 @@ console.log(falseComparator == 6); // Prints false.
 
 // 5. Use AND operator
 let andOperator = 5;
-
 console.log(andOperator > 4 && andOperator < 6); // Prints true. Because 5 is greater than 4 and less than 6.
 
 
 // 6. Use OR operator
 let orOperator = 5;
-
 console.log(orOperator >= 5 || orOperator < 4); // Prints true. If one of the operands is true, the result is true.
 
 
 // 7. Use both AND and OR operators in the same statement.
 let andOrOperator = 5;
-
 console.log(andOrOperator > 4 && andOrOperator < 6 || andOrOperator == 7); // Prints true. Because 5 is greater than 4 and less than 6.
+
 
 // 8. Add some negation to the previous statement.
 console.log(!(andOperator > 4 && andOrOperator < 6 || andOrOperator == 7)); // Prints false. Because the result of the previous statement is true, and the negation of true is false.
