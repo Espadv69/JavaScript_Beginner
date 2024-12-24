@@ -203,5 +203,17 @@ console.log(undefined === null); // Prints false. Because undefined is not the s
   *- undefined
   *- NaN
   - This means that any value that is not truthy is falsy.
-  
+
 */
+
+// logical operators
+a = 3; // Assigns the value again to a, to remember that a is 3.
+console.log(a > 2 && a < 4); // Prints true. Because a is greater than 2 and less than 4.
+// *- (&&) is the AND operator. It returns true if both operands are true. -*
+
+console.log(a > 2 || a < 3); // Prints true. Because a is greater than 2 or less than 3.
+// *- (||) is the OR operator. It returns true if one of the operands is true. -*
+
+console.log(!(a > 2 && a < 4)); // Prints false. Because the result of a > 2 && a < 4 is true, and the negation of true is false.
+// *- (!) is the NOT operator. It returns the opposite of the operand. -*
+
