@@ -2,17 +2,17 @@
 
   Primitive data types in JavaScript:
 ---------------------------------------
-  - Strings: 'Hello, world!'
-  - Numbers: 42
-  - Booleans: true or false
-  - Undefined: undefined (A variable that has not been assigned a value)
-  - Null: null (A variable that has been assigned a null value)
-  - Symbols: Symbol() (A unique and inmutable and unique value)
-  - BigInt: 9007199254740991n (A number that can be bigger than the Number type)
+  *- Strings: 'Hello, world!'
+  *- Numbers: 42
+  *- Booleans: true or false
+  *- Undefined: undefined (A variable that has not been assigned a value)
+  *- Null: null (A variable that has been assigned a null value)
+  *- Symbols: Symbol() (A unique and inmutable and unique value)
+  *- BigInt: 9007199254740991n (A number that can be bigger than the Number type)
 
-*--- Arrays and objects in JavaScript are complex data types where we can store multiple values: ---*
-  - Arrays: ['Hello', 'World', 42, true] (Arrays can contain any type of variable)
-  - Objects: { realName: 'Aitor', lastName: 'Diaz', isDeveloper: true } (Objects can contain any type of variable)
+--- Arrays and objects in JavaScript are complex data types where we can store multiple values: ---
+  *- Arrays: ['Hello', 'World', 42, true] (Arrays can contain any type of variable)
+  *- Objects: { realName: 'Aitor', lastName: 'Diaz', isDeveloper: true } (Objects can contain any type of variable)
 
 */
 
@@ -20,18 +20,18 @@
 
   Operators in JavaScript:
 ----------------------------
-  - Arithmetic operators: +, -, *, /, %, ++, --
-  - Assignment operators: =, +=, -=, *=, /=, %=
-  - Comparison operators: ==, ===, !=, !==, >, <, >=, <=
-  - Logical operators: &&, ||, !
-  - Bitwise operators: &, |, ~, ^, <<, >>
-  - String operators: +, +=
-  - Conditional (ternary) operator: condition ? expr1 : expr2
-  - Comma operator: expr1, expr2
-  - Unary operators: delete, typeof, void
-  - Relational operators: in, instanceof
-  - Grouping operators: ( )
-  - Miscellaneous operators: ., [], ?., ??
+  *- Arithmetic operators: +, -, *, /, %, ++, --
+  *- Assignment operators: =, +=, -=, *=, /=, %=
+  *- Comparison operators: ==, ===, !=, !==, >, <, >=, <=
+  *- Logical operators: &&, ||, !
+  *- Bitwise operators: &, |, ~, ^, <<, >>
+  *- String operators: +, +=
+  *- Conditional (ternary) operator: condition ? expr1 : expr2
+  *- Comma operator: expr1, expr2
+  *- Unary operators: delete, typeof, void
+  *- Relational operators: in, instanceof
+  *- Grouping operators: ( )
+  *- Miscellaneous operators: ., [], ?., ??
 
 */
 
@@ -132,3 +132,25 @@ console.log(3 - 2); // Prints 1. This subtracts 2 from 3.
 console.log(3 * 3); // Prints 9. This multiplies 3 by 3.
 console.log(3 / 2); // Prints 1.5. This divides 3 by 2.
 console.log(10 % 3); // Prints 1. This returns the remainder of the division of 10 by 3.
+console.log(5 ** 2); // Prints 25. This raises 5 to the power of 2.
+
+/*
+  The increment operator (++) adds one to its operand.
+  The decrement operator (--) subtracts one from its operand.
+  But has to be assigned to a variable to be printed.
+  For example:
+  *- let x = 5;
+  *- x++;
+  *- console.log(x); // Prints 6.
+
+  Other example:
+  *- let x = 5;
+  *- console.log(++x) // Prints 6.
+
+  Wrong example:
+  *- console.log(5++); // This will throw an error. Because the increment operator has to be assigned to a variable.
+
+  Other wrong example;
+  *- let y = 5;
+  *- console.log(y++); // This will print 5, because the increment operator is after the variable. (++y) will print 6.
+*/
