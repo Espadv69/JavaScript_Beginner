@@ -33,6 +33,8 @@ console.log(myString); // Prints 'Hello, world!'.
 
 const myStringToUpperCase = myString.toUpperCase(); // toUpperCase is a method that converts a string to uppercase.
 console.log(myStringToUpperCase); // Prints 'HELLO, WORLD!'.
+// ---------------------
+
 
 // How to use an array method in JavaScript. ---------------------
 const myArray = [];
@@ -44,7 +46,7 @@ console.log(myArray); // Prints ['Hello, it's me!'].
 const myOtherArray = ['Hello', 20]; // Creates an array with two elements.
 console.log(myOtherArray[0]); // Prints 'Hello'. Arrays are zero-based.
 console.log(myArray.concat(myOtherArray)); // Prints ['Hello, it's me!', 'Hello', 20]. Concat is a method that concatenates two arrays.
-
+// ---------------------
 
 
 // How to use an object method in JavaScript. ---------------------
@@ -62,7 +64,7 @@ const myOtherObject = {
 // How to access an object property in JavaScript.
 console.log(myObject.firstName); // Prints 'Aitor'.
 console.log(myOtherObject.links[0]); // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.e
-
+// ---------------------
 
 
 // How to use a simple function in JavaScript. ---------------------
@@ -85,3 +87,24 @@ const num1 = 2; // Declares a variable with the value 2.
 const num2 = 3; // Declares a variable with the value 3.
 
 console.log(sumar_2(num1, num2)); // so we can use variables as arguments in a function.
+// ---------------------
+
+
+/*
+
+  Operators in JavaScript:
+----------------------------
+  - Arithmetic operators: +, -, *, /, %, ++, --
+  - Assignment operators: =, +=, -=, *=, /=, %=
+  - Comparison operators: ==, ===, !=, !==, >, <, >=, <=
+  - Logical operators: &&, ||, !
+  - Bitwise operators: &, |, ~, ^, <<, >>
+  - String operators: +, +=
+  - Conditional (ternary) operator: condition ? expr1 : expr2
+  - Comma operator: expr1, expr2
+  - Unary operators: delete, typeof, void
+  - Relational operators: in, instanceof
+  - Grouping operators: ( )
+  - Miscellaneous operators: ., [], ?., ??
+  
+*/
