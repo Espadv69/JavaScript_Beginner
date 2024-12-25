@@ -265,7 +265,8 @@ const canDrink = age >= 18 ? console.log('you can drink beer 🍺') : console.lo
 // ---------------------
 
 
-// Conditionals (if, else if, else) ---------------
+// Conditionals ---------------
+// if, else if, else
 let conditionalAge = 21 // Declares a variable with the value 21.
 
 if (conditionalAge == 21) {
