@@ -109,6 +109,20 @@ console.log(myArray) // Prints ['Hello, it's me!'].
 const myOtherArray = ['Hello', 20] // Creates an array with two elements.
 console.log(myOtherArray[0]) // Prints 'Hello'. Arrays are zero-based.
 console.log(myArray.concat(myOtherArray)) // Prints ['Hello, it's me!', 'Hello', 20]. Concat is a method that concatenates two arrays.
+
+const fruits = ['strawberry', 'banana', 'apple', 'berry']
+console.log(fruits) // Expected output: ['strawberry', 'banana', 'apple', 'berry']
+fruits.pop() // Removes the last element from the array.
+console.log(fruits) // Expected output: ['strawberry', 'banana', 'apple']
+
+const names = ['Aitor', 'Julian', 'Roberto', 'Pepe']
+console.log(names) // Expected output: ['Aitor', 'Julian', 'Roberto', 'Pepe']
+
+names.shift() // Removes the first elememt from the array.
+console.log(names) // Expected output: ['Julian', 'Roberto', 'Pepe']
+
+names.unshift('Aitor', 'Lolito') // unshift adds one or more elements to the beginning of an array.
+console.log(names) // Expected output: ['Aitor', 'Lolito', 'Julian', 'Roberto', 'Pepe']
 // ---------------------
 
 
