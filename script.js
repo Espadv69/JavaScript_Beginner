@@ -113,7 +113,7 @@ console.log(myArray.concat(myOtherArray)) // Prints ['Hello, it's me!', 'Hello',
 
 
 // How to use an object method in JavaScript. ---------------------
-const myObject = { firstName: 'Aitor', lastName: 'Díaz', ig: '@espadv._', isDeveloper: true} // Creates an object with three properties.
+const myObject = { firstName: 'Aitor', lastName: 'Díaz', ig: '@espadv._', isDeveloper: true } // Creates an object with three properties.
 const field = 'ig' // We can use a variable to access an object property.
 console.log(myObject[field]) // Prints '@espadv._', because field is 'ig'.
 
@@ -155,13 +155,13 @@ console.log(sumar_2(num1, num2)) // so we can use variables as arguments in a fu
 
 // How to see the data type of a variable in JavaScript ---------------------
 const myTypeOfVariable = 'Hello, world!' // Declares a variable with a string value.
-console.log(typeof(myTypeOfVariable)) // Prints 'string', because myTypeOfVariable is a string variable.
+console.log(typeof (myTypeOfVariable)) // Prints 'string', because myTypeOfVariable is a string variable.
 
 const myOtherTypeOfVariable = 42 // Declares a variable with a number value.
-console.log(typeof(myOtherTypeOfVariable)) // Prints 'number', because myOtherTypeOfVariable is a number variable.
+console.log(typeof (myOtherTypeOfVariable)) // Prints 'number', because myOtherTypeOfVariable is a number variable.
 
 const myBooleanTypeOfVariable = true // Declares a variable with a boolean value.
-console.log(typeof(myBooleanTypeOfVariable)) // Prints 'boolean', because myBooleanTypeOfVariable is a boolean value.
+console.log(typeof (myBooleanTypeOfVariable)) // Prints 'boolean', because myBooleanTypeOfVariable is a boolean value.
 // Then we can see the data type of a variable using the typeof operator.
 // ---------------------
 
@@ -265,7 +265,7 @@ const canDrink = age >= 18 ? console.log('you can drink beer 🍺') : console.lo
 // ---------------------
 
 
-// Conditionals ---------------
+// Conditionals (if, else if, else) ---------------
 let conditionalAge = 21 // Declares a variable with the value 21.
 
 if (conditionalAge == 21) {
@@ -277,4 +277,37 @@ if (conditionalAge == 21) {
 }
 
 const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.') // This is the same as (if[?]) and (else[:]).
+
+// switch
+let day = 0
+let dayName
+
+switch (day) {
+  case 0:
+    dayName = 'Monday'
+    break
+  case 1:
+    dayName = 'Tuesday'
+    break
+  case 2:
+    dayName = 'Wednesday'
+    break
+  case 3:
+    dayName = 'Thursday'
+    break
+  case 4:
+    dayName = 'Friday'
+    break
+  case 5:
+    dayName = 'Saturday'
+    break
+  case 6:
+    dayName = 'Sunday'
+    break
+  default:
+    dayName = 'Not exist'
+    break
+}
+
+console.log(dayName)
 // ---------------------
