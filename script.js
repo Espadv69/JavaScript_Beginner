@@ -276,5 +276,5 @@ if (conditionalAge == 21) {
   console.log('you\'re underage.') // If you're underage, prints this.
 }
 
-const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.') // This is the same as (if) and (else).
+const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.') // This is the same as (if[?]) and (else[:]).
 // ---------------------
