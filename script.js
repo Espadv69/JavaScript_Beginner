@@ -262,3 +262,21 @@ console.log(!(a > 2 && a < 4)); // Prints false. Because the result of a > 2 && 
 let age = 21; // Declares a variable with the value 21.
 // age = 17; // Uncomment this line to test the other condition.
 const canDrink = age >= 18 ? console.log('you can drink beer 🍺') : console.log('You cannot drink beer 🍺');
+// ---------------------
+
+
+// Conditionals ---------------
+let conditionalAge = 21;
+
+if (conditionalAge == 21) {
+  console.log('Yo\'re 21 years old.')
+} else if (conditionalAge > 21) {
+  console.log('you\'re over 21 years old.')
+} else {
+  console.log('you\'re underage.')
+}
+
+const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.')
+
+
+// ---------------------
