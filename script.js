@@ -269,12 +269,12 @@ const canDrink = age >= 18 ? console.log('you can drink beer 🍺') : console.lo
 let conditionalAge = 21 // Declares a variable with the value 21.
 
 if (conditionalAge == 21) {
-  console.log('Yo\'re 21 years old.')
+  console.log('Yo\'re 21 years old.') // If you're 21 years old, prints this.
 } else if (conditionalAge > 21) {
-  console.log('you\'re over 21 years old.')
+  console.log('you\'re over 21 years old.') // If you're over 21 years old, prints this.
 } else {
-  console.log('you\'re underage.')
+  console.log('you\'re underage.') // If you're underage, prints this.
 }
 
-const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.')
+const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.') // This is the same as (if) and (else).
 // ---------------------
