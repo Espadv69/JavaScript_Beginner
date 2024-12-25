@@ -306,7 +306,6 @@ switch (day) {
     break
   default:
     dayName = 'Not exist'
-    break
 }
 
 console.log(dayName)
