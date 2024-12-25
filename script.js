@@ -277,6 +277,4 @@ if (conditionalAge == 21) {
 }
 
 const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.')
-
-
 // ---------------------
