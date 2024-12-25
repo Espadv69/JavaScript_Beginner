@@ -280,33 +280,33 @@ if (conditionalAge == 21) {
 const canDrive = conditionalAge >= 21 ? console.log('You can drive.') : console.log('You cannot drive.') // This is the same as (if[?]) and (else[:]).
 
 // switch
-let day = 0
-let dayName
+let day = 0 // Declares a variable with the value 0.
+let dayName // Declares a variable without a value.
 
 switch (day) {
   case 0:
-    dayName = 'Monday'
+    dayName = 'Monday' // If day is equal to 0, print 'Monday'.
     break
   case 1:
-    dayName = 'Tuesday'
+    dayName = 'Tuesday' // If day is equal to 1, print 'Tuesday'.
     break
   case 2:
-    dayName = 'Wednesday'
+    dayName = 'Wednesday' // If day is equal to 2, print 'Wednesday'.
     break
   case 3:
-    dayName = 'Thursday'
+    dayName = 'Thursday' // If day is equal to 3, print 'Thursday'.
     break
   case 4:
-    dayName = 'Friday'
+    dayName = 'Friday' // If day is equal to 4, print 'Friday'.
     break
   case 5:
-    dayName = 'Saturday'
+    dayName = 'Saturday' // If day is equal to 5, print 'Saturday'.
     break
   case 6:
-    dayName = 'Sunday'
+    dayName = 'Sunday' // If day is equal to 6, print 'Sunday'.
     break
   default:
-    dayName = 'Not exist'
+    dayName = 'Does not exist' // If the number doesn't match any, print 'Does not exist'.
 }
 
 console.log(dayName)
