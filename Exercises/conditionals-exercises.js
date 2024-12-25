@@ -35,7 +35,7 @@ if (age >= 18) {
   console.log('You can vote.')
 } else {
   let leftAge = 18 - age
-  console.log(`You can't vote yet, in ${leftAge} years.`)
+  console.log(`You can't vote yet, in ${leftAge} years, you'll vote.`)
 }
 
 
@@ -172,5 +172,5 @@ if (monthCase <= 12) {
       console.log('Invalid month')
   }
 } else {
-  console.log(`That month (${monthCase}) doesn\'t exist.`)
+  console.log(`That month (${monthCase}) doesn't exist.`)
 }
