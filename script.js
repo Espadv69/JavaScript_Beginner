@@ -402,4 +402,18 @@ for (let i = 0; i < 3; i++) {
   console.log(`Hello! ${i}`) // Prints 'Hello' + I(number), three times.
 }
 
+const testArrayFor = ['Aitor', 'Pedro', 'Espadv', 'Paco', 'Manolo']
+// This loop iterates over each item in the array and prints its index and value.
+for(let i = 0; i < testArrayFor.length; i++) {
+  console.log(`Item ${i}: ${testArrayFor[i]}`)
+}
+
+/* The "while" loop repeats a block of code as long as the specified condition is true. */
+// It checks the condition before each iteration.
+let counter = 0;
+while (counter < 2) {
+  console.log(`While ${counter}`)
+  counter++
+}
+
 // ---------------------
