@@ -65,12 +65,40 @@ do {
 
 
 // 4. Create an array of names and use a loop to print each name to the console.
+let namesArray = ['Aitor', 'Pepe', 'Paco', 'Manolo', 'Luna']
+for (let name of namesArray) {
+  console.log(name)
+}
 
-// 5. Create a llop that counts the number of vowels in a string.
+
+// 5. Create a loop that counts the number of vowels in a string.
+let vowelsLoop = 'AitorCrack'
+for(let vowels of vowelsLoop) {
+  console.log(vowels)
+}
+
 
 // 6. Create an array of numbers, use a loop to multiply all the numbers, and display the product.
+let numbersArray = [2, 10, 3]
+let product = 1
+
+for(let number of numbersArray) {
+  product *= number
+}
+
+console.log(`Numbers of array: ${numbersArray}`)
+console.log(`All the numbers multiplied equals ${product}`)
+
 
 // 7. Create a loop that prints the multiplication table of 5.
+counterLoop = 1
+while (counterLoop <= 50) {
+  if (counterLoop % 5 == 0) {
+    console.log(counterLoop)
+  }
+  counterLoop++
+}
+
 
 // 8. Use a loop to reverse a string.
 
