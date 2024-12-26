@@ -94,12 +94,24 @@ console.log(`All the numbers multiplied equals ${product}`)
 counterLoop = 1
 while (counterLoop <= 50) {
   if (counterLoop % 5 == 0) {
-    console.log(counterLoop)
+    console.log(`(while table of 5) Number: ${counterLoop}`)
   }
   counterLoop++
 }
 
+for (let i = 1; i <= 50; i++) {
+  if (i % 5 == 0) {
+    console.log(`(for table of 5) Number: ${i}`)
+  }
+}
 
+counterLoop = 1
+do {
+  if (counterLoop % 5 == 0) { console.log(`(do while table of 5) Number: ${counterLoop}`) }
+  counterLoop++
+} while (counterLoop <= 50)
+
+  
 // 8. Use a loop to reverse a string.
 
 // 9. Use a loop to generate the first 10 numbers of the Fibonacci sequence.
