@@ -434,6 +434,12 @@ for (let value of forOfSet) {
 for (let value of forOfMap) {
   console.log(value)
 }
+
+// This loop iterates over each character in the string 'mySpellString', logging each letter to the console.
+let mySpellString = 'Aitor'
+for (let letter of mySpellString) {
+  console.log(letter)
+}
 /*---------------------------------------------*/
 
 
@@ -456,5 +462,18 @@ do {
   console.log(counter)
   counter++
 } while (counter < 3)
+/*---------------------------------------------*/
+
+/* Good practices: break & continue */
+for (let x = 0; x <= 10; x++) {
+  if (x == 2) {
+    console.log('This is number 2')
+    continue
+  } else if (x == 5) {
+    console.log(`Better, stop it here. { ${x} }`)
+    break
+  }
+  console.log(x)
+}
 /*---------------------------------------------*/
 // ---------------------
