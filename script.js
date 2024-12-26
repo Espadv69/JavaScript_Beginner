@@ -465,6 +465,8 @@ do {
 /*---------------------------------------------*/
 
 /* Good practices: break & continue */
+// This loop prints numbers 0 to 10, but when x equals 2,
+// it skips the iteration, and when x equals 5, it breaks the loop after logging a message.
 for (let x = 0; x <= 10; x++) {
   if (x == 2) {
     console.log('This is number 2')
