@@ -72,3 +72,12 @@ const subtract = (a, b) => a - b
 
 console.log(calculate(multiply, 3, 3))
 console.log(calculate(subtract, 3, 3))
+
+/* **forEach** */ // (Array, set, map, object, etc...)
+// The `forEach` method iterates through each element in the `myArray`, executing the provided callback function for each element.
+// In this case, it logs each value (`1, 2, 3, 4`) to the console.
+let myArray = [1, 2, 3, 4]
+
+myArray.forEach((value) => {
+  console.log(value) // Expected output: 1 2 3 4
+})
