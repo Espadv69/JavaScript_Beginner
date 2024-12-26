@@ -111,9 +111,41 @@ do {
   counterLoop++
 } while (counterLoop <= 50)
 
-  
+
 // 8. Use a loop to reverse a string.
+let myString = 'Hello, my little friends!'
+let myReversedString = ''
+
+for (let i = myString.length - 1; i >= 0; i--) {
+  myReversedString += myString[i]
+}
+
+console.log(myString)
+console.log(myReversedString)
+
+
+let myString_2 = 'OLLEH'
+let myReversedString_2 = ''
+
+for (let i = myString_2.length - 1; i >= 0; i--) {
+  myReversedString_2 += myString_2[i]
+  console.log(myString_2[i])
+}
+
+console.log(myReversedString_2)
+
 
 // 9. Use a loop to generate the first 10 numbers of the Fibonacci sequence.
+let n1 = 0
+let n2 = 1
+let nextN
+
+for (let i = 1; i <= 10; i++) {
+  console.log(n1)
+  nextN = n1 + n2
+  n1 = n2
+  n2 = nextN
+}
+
 
 // 10. Create an array of numbers and use a loop to create a new array with numbers greater than 10.
