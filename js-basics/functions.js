@@ -19,3 +19,45 @@ const num2 = 3 // Declares a variable with the value 3.
 
 console.log(sumar_2(num1, num2)) // so we can use variables as arguments in a function.
 // ---------------------
+
+/* Without parameter */
+function greetings() {
+  console.log('Hello, welcome!') // when the function called, prints: 'Hello, welcome!'.
+}
+
+greetings() // This is to call the function. You can call the function more times.
+
+for (let i = 1; i <= 3; i++) {
+  greetings() // Called 3 times.
+}
+
+/* With paremeter */
+function namesFunction(name) {
+  console.log(`Hello, ${name}`)
+}
+
+namesFunction('Aitor') // When the function has a parameter, we need to provide a value for it in order to call it.
+
+/* **Anonymous function** */
+const stringAnonymous = function(string) {
+  console.log(string)
+}
+
+stringAnonymous('This is an Anonymous function!')
+
+/* **Arrow function** */
+const stringArrow = (string) => {
+  console.log(string)
+}
+
+const stringArrow_2 = (string) => console.log(string) // In a line
+
+stringArrow('Hello, my little brother.')
+stringArrow_2('Goodbye, my big bro.')
+
+/* **Parameters** */
+function restar(n = 0, n2 = 0) { // We can provide values to our parameters.
+  console.log(n - n2)
+}
+
+restar(10, 5)
