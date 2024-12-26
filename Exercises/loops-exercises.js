@@ -149,3 +149,18 @@ for (let i = 1; i <= 10; i++) {
 
 
 // 10. Create an array of numbers and use a loop to create a new array with numbers greater than 10.
+let myArray = [10, 2, 4, 6, 3, 2, 22, 43, 54, 11, 13, 15, 6, 7, 3, 21, 10]
+let myGreaterContainer = []
+let myLessContainer = []
+for (let i = 0; i <= myArray.length; i++) {
+  if (myArray[i] >= 10) {
+    myGreaterContainer.push(myArray[i])
+  } else {
+    myLessContainer.push(myArray[i])
+  }
+}
+console.log(`Numbers over 10:
+   ${myGreaterContainer}`)
+   
+console.log(`Numbers under 10:
+   ${myLessContainer}`)
