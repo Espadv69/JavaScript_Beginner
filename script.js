@@ -385,6 +385,10 @@ myMap.delete('age') // delete(key): Removes a key-value pair from the map.
 console.log(myMap) // Expected output: Map(1) {'name' => 'Aitor'}
 
 console.log(myMap.size) // size: Returns the number of key-value pairs in the map. - Expected output: 1
+console.log(myMap.keys()) // keys(): Returns the keys. - Expected output: [Map Iterator] {'name'}
+console.log(myMap.values()) // values(): Returns the values. - Expected output: [Map Iterator] {'Aitor'}
+console.log(myMap.entries()) // entries(): Returns an iterable of key, value pairs for every entry in the map. - Expected output: [Map Entries] {'name', 'Aitor'}
+
 
 myMap.clear() // clear empties the map.
 console.log(myMap) // Expected output: Map(0) {}
