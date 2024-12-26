@@ -393,3 +393,13 @@ console.log(myMap.entries()) // entries(): Returns an iterable of key, value pai
 myMap.clear() // clear empties the map.
 console.log(myMap) // Expected output: Map(0) {}
 // ---------------------
+
+
+// Loops -------------------
+/* The "for" loop is a control flow statement used to iterate a block of code a specific number of times. */
+// initialization(let i = 0), condition(i < 3), and increment/decrement(i++).
+for (let i = 0; i < 3; i++) {
+  console.log(`Hello! ${i}`) // Prints 'Hello' + I(number), three times.
+}
+
+// ---------------------
