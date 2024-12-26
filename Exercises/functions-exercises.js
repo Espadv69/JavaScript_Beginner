@@ -1,11 +1,21 @@
 // NOTE: Explore different function syntaxes to solve the exercises.
 /*-----------------------------------------------------------------*/
 // 1. Create a function that receives two numbers and returns the sum.
+const sum = (a, b) => a + b
+console.log(sum(4, 6))
 
 
 // 2. Create a function that receives an array of numbers and returns the largest one.
+let arrayOfNumbers = [1, 3, 69, 44, 32, 72, 2, 9, 10]
+const findLargestFaster = arrayOfNumbers.reduce((a, b) => (a > b ? a : b))
+console.log(findLargestFaster)
 
+function find(array) {
+  return array.reduce((largest, nextNumber) => (nextNumber > largest ? nextNumber : largest))
+}
 
+const findNumber = find(arrayOfNumbers)
+console.log(findNumber)
 // 3. Create a function that receives a string and returns the number of vowels it contains.
 
 
