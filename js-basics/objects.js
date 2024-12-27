@@ -29,3 +29,16 @@ console.log(person.isDeveloper) // output: undefined
 // How to add a new property to an object in JavaScript.
 person.isDeveloper = true
 console.log(person.isDeveloper) // output: true
+
+// Methods in JavaScript objects.
+let person2 = {
+  firstName: 'Pepe',
+  lastName: 'Pérez',
+  ig: '@pepe69',
+  isDeveloper: true,
+  walk: function(bool) { // we can add a function as a property.
+    return bool ? 'I am walking' : 'I am not walking.'
+  }
+}
+
+console.log(person2.walk(true)) // output: I am walking.
