@@ -83,6 +83,31 @@ console.log(isPrime(7))
 
 
 // 6. Create a function that receives two arrays and returns a new one with the common elements between both.
+function getCommonElements(array, array2) {
+  return array.filter(number => array2.includes(number))
+}
+
+const num1 = [1, 2, 5, 7, 9, 10]
+const num2 = [1, 3, 5, 10, 9, 11]
+const common = getCommonElements(num1, num2)
+console.log(common)
+
+function getCommonFruits(array, array2) {
+  return array.filter(fruit => array2.includes(fruit))
+}
+
+let fruits1 = ['apple', 'banana', 'cherry', 'grape', 'orange'];
+let fruits2 = ['pear', 'banana', 'kiwi', 'apple', 'mango'];
+
+const commonFruits = getCommonFruits(fruits1, fruits2)
+console.log(commonFruits)
+
+/* Without function */
+let letters = ['a', 'b', 'c', 'p', 'ñ', 'l']
+let letters2 = ['a', 'h', 'c', 'w', 'b', 'l']
+
+const commonLetters = letters.filter(letter => letters2.includes(letter))
+console.log(commonLetters)
 
 
 // 7. Create a function that receives an array of numbers and returns the sum of all the even numbers.
