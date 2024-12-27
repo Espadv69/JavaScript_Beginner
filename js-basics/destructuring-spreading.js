@@ -5,6 +5,11 @@ const person = {
   age: 21,
   isDeveloper: true,
   married: false,
+  job: {
+    title: 'Frontend Developer',
+    company: 'React.js',
+    salary: 2000,
+  }
 }
 
 const myName = person.firstName
@@ -26,5 +31,5 @@ let [ uno, dos, tres, cuatro, cinco, seis = 6 ] = numbers // Declaring a default
 console.log(seis) // output: 6
 
 // of this way we can change the name of the variable.
-let { firstName: nombre, age: edad, isDeveloper: esDesarrollador, married: casado } = person
-console.log(casado) // output: Aitor
+let { firstName: nombre, age: edad, isDeveloper: esDesarrollador, married: casado, job: {title: titulo, company: compañia, salary: salario} } = person
+console.log(compañia) // output: React.js
