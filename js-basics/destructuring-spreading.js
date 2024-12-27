@@ -19,7 +19,7 @@ const one = numbers[0]
 console.log(one) // output: 1
 
 
-// Destructuring.
+// Destructuring. (Desestructuración)
 let [ first, second, third, fourth, fifth ] = numbers // Syntax of an array.
 console.log(first) // output: 1
 
@@ -33,3 +33,15 @@ console.log(seis) // output: 6
 // of this way we can change the name of the variable.
 let { firstName: nombre, age: edad, isDeveloper: esDesarrollador, married: casado, job: {title: titulo, company: compañia, salary: salario} } = person
 console.log(compañia) // output: React.js
+
+
+// Spreading. (propagación)
+let myArray = [...numbers] // Syntax of an array. (This is a copy of the array.)
+console.log(myArray) // output: [1, 2, 3, 4, 5]
+
+let myArray2 = [0, ...numbers, 6, 7, 8] // Syntax of an array. (This is a copy of the array with new values.)
+console.log(myArray2) // output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+// How to combine two arrays.
+let myArray3 = [...myArray, ...myArray2]
+console.log(myArray3) // output: [1, 2, 3, 4, 5, 0, 1, 2, 3, 4, 5, 6, 7, 8]
