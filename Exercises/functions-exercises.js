@@ -16,9 +16,35 @@ function find(array) {
 
 const findNumber = find(arrayOfNumbers)
 console.log(findNumber)
+
+
 // 3. Create a function that receives a string and returns the number of vowels it contains.
+function counterVowels(string) {
+  const vowels = 'aeiouAEIOU'
+  let counter = 0
 
+  for(let char of string) {
+    if (vowels.includes(char)) {
+      counter++
+    }
+  }
+  return counter
+}
 
+console.log(counterVowels('Hola, que tal'))
+
+function counterConsonants(string) {
+  const consonants = 'qwrtypñlkjhgfdszxcvbnmQWRTYPÑLKJHGFDSZXCVBNM'
+  let counter = 0
+
+  for(let consonant of string) {
+    if(consonants.includes(consonant)) {
+      counter++
+    }
+  }
+  return counter
+}
+console.log(counterConsonants('Hola picha'))
 // 4. Create a function that receives an array of strings and returns a new one with the strings in uppercase.
 
 
