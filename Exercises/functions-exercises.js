@@ -182,4 +182,4 @@ function factorial2(num) {
   return factor2
 }
 
-console.log(factorial2(5))
+console.log(factorial2(10))
