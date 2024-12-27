@@ -173,13 +173,13 @@ function factorial(num) {
 console.log(factorial(5))
 
 function factorial2(num) {
-  let factorial = 1
+  let factor2 = 1
 
   for (let i = 1; i <= num; i++) {
-    factorial *= i
+    factor2 *= i
   }
 
-  return factorial
+  return factor2
 }
 
 console.log(factorial2(5))
