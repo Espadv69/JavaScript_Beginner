@@ -14,3 +14,4 @@ const myOtherObject = {
 console.log(myObject.firstName) // Prints 'Aitor'.
 console.log(myOtherObject.links[0]) // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.e
 // ---------------------
+
