@@ -129,9 +129,57 @@ console.log(sumEven)
 
 
 // 8. Create a function that receives an array of numbers and returns a new array with the numbers squared.
+function squared(array) {
+  return array.map(function(num) { return num * num })
+}
+
+const arraySquared = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(squared(arraySquared))
+
+/* Arrow function */
+function squared2(array) {
+  return array.map(num => num * num)
+}
+
+const arraySquared2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(squared2(arraySquared2))
 
 
 // 9. Create a function that receives a string and returns the same string with the words in reverse order.
+function reverse(string = '') {
+  let container = ''
+
+  for (let i = string.length - 1; i >= 0; i--) {
+    container += string[i]
+  }
+
+  return container
+}
+
+console.log(reverse('rotiA'))
 
 
 // 10. Create a function that calculates the factorial of a given number.
+function factorial(num) {
+  let factor = 1
+
+  for (let i = 1; i <= num; i++) {
+    factor = factor * i
+  }
+
+  return factor
+}
+
+console.log(factorial(5))
+
+function factorial2(num) {
+  let factorial = 1
+
+  for (let i = 1; i <= num; i++) {
+    factorial *= i
+  }
+
+  return factorial
+}
+
+console.log(factorial2(5))
