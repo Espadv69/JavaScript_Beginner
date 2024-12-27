@@ -111,6 +111,21 @@ console.log(commonLetters)
 
 
 // 7. Create a function that receives an array of numbers and returns the sum of all the even numbers.
+function sumEvenNumbers(array) {
+  let sum = 0
+
+  for (let number of array) {
+    if (number % 2 === 0) {
+      sum += number
+    }
+  }
+
+  return sum
+}
+
+const evenNumbers = [2, 4, 6, 10, 15, 13, 11]
+const sumEven = sumEvenNumbers(evenNumbers)
+console.log(sumEven)
 
 
 // 8. Create a function that receives an array of numbers and returns a new array with the numbers squared.
