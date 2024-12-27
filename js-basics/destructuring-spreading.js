@@ -15,4 +15,4 @@ console.log(one) // output: 1
 
 // Destructuring. (Syntax of an array)
 let [first, second, third, fourth, fifth] = numbers
-console.log(first + second) // output: 3
+console.log(first) // output: 1
