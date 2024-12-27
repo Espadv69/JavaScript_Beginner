@@ -4,6 +4,7 @@ const person = {
   firstName: 'Aitor',
   age: 21,
   isDeveloper: true,
+  married: false,
 }
 
 const myName = person.firstName
@@ -13,6 +14,17 @@ const one = numbers[0]
 console.log(one) // output: 1
 
 
-// Destructuring. (Syntax of an array)
-let [first, second, third, fourth, fifth] = numbers
+// Destructuring.
+let [ first, second, third, fourth, fifth ] = numbers // Syntax of an array.
 console.log(first) // output: 1
+
+let { firstName, age, isDeveloper } = person // Syntax of an object.
+console.log(firstName) // output: Aitor
+
+// syntax with default values.
+let [ uno, dos, tres, cuatro, cinco, seis = 6 ] = numbers // Declaring a default value. (seis = 6)
+console.log(seis) // output: 6
+
+// of this way we can change the name of the variable.
+let { firstName: nombre, age: edad, isDeveloper: esDesarrollador, married: casado } = person
+console.log(casado) // output: Aitor
