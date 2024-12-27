@@ -1,17 +1,31 @@
-// How to use an object method in JavaScript. ---------------------
-const myObject = { firstName: 'Aitor', lastName: 'Díaz', ig: '@espadv._', isDeveloper: true } // Creates an object with three properties.
-const field = 'ig' // We can use a variable to access an object property.
-console.log(myObject[field]) // Prints '@espadv._', because field is 'ig'.
-
-const myOtherObject = {
-  firstName: 'Pepe',
-  lastName: 'García',
-  isDeveloper: false,
-  links: ['https://twitter.com', 'https://github.com'] // Objects can contain arrays.
-} // Other way to format an object.
+// syntax:
+let person = {
+  firstName: 'Aitor',
+  lastName: 'Díaz',
+  ig: '@espadv69',
+  isDeveloper: true,
+  gitHub: 'http://github.com/Espadv69'
+}
 
 // How to access an object property in JavaScript.
-console.log(myObject.firstName) // Prints 'Aitor'.
-console.log(myOtherObject.links[0]) // Prints 'https://twitter.com'. so we can access the first element of the links array in myOtherObject.e
-// ---------------------
+// point notation
+console.log(person.firstName) // output: Aitor
 
+// bracket notation
+console.log(person['firstName']) // output: Aitor
+
+// How to update an object property in JavaScript.
+person.firstName = 'Espadv'
+console.log(person.firstName) // New output: Espadv
+
+/* Also we can change the type of value. */
+person.isDeveloper = 'Yes'
+console.log(typeof person.isDeveloper) // output: string. Before was boolean.
+
+// How to delete an object property in JavaScript.
+delete person.isDeveloper
+console.log(person.isDeveloper) // output: undefined
+
+// How to add a new property to an object in JavaScript.
+person.isDeveloper = true
+console.log(person.isDeveloper) // output: true
