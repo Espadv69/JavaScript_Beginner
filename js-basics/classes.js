@@ -110,3 +110,25 @@ class GettersSettersPerson {
 let gettersSettersPerson = new GettersSettersPerson('Aitor', 'Ramos', 'aitorramos', 'IBAN1234')
 console.log(gettersSettersPerson.firstName) // output: Aitor. This is just a getter. It can't be modified.
 console.log(gettersSettersPerson.lastName) // output: undefined. lastName is not defined in the class.
+
+// inheritance
+class Animal {
+  constructor(aName) {
+    this.aName = aName
+  }
+
+  sound() {
+    console.log('Emits a sound')
+  }
+}
+
+class Dog extends Animal{
+  run() {
+    console.log('Dog is running')
+  }
+}
+
+let dog = new Dog('Buddy')
+dog.sound() // output: Emits a sound
+dog.run() // output: Dog is running
+// This is called inheritance. Dog class inherits from the Animal class. It has access to the sound method.
