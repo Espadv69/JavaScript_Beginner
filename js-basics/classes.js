@@ -117,33 +117,49 @@ class Animal {
     this.aName = aName
   }
 
-  sound() {
-    console.log('Emits a sound')
-  }
-}
-
-class Dog extends Animal{
   run() {
     console.log('Dog is running')
   }
-}
 
-class Fish extends Animal {
-  constructor(size) {
-    this.size = size
+  sound() {
+    console.log('Emits a sound')
   }
-  
+
   swim() {
     console.log('Fish is swimming')
   }
 }
 
-let dog = new Dog('Buddy')
+class Dog extends Animal{
+  constructor(aName, weight, breed) {
+    super(aName)
+    this.weight = weight
+    this.breed = breed
+  }
+
+  sound() {
+    console.log('Barks')
+  }
+}
+
+class Fish extends Animal {
+  constructor(aName, weight) {
+    super(aName) // super() calls the constructor of the parent class
+    this.weight = weight
+  }
+
+  sound() {
+    super.sound() // super.sound() calls the sound method of the parent class
+  }
+}
+
+let dog = new Dog('Buddy', 20, 'Golden Retriever')
+console.log(dog) // output: Dog { aName: 'Buddy', weight: 20, breed: 'Golden Retriever' }
 dog.sound() // output: Emits a sound
 dog.run() // output: Dog is running
 
-let fish = new Fish('Nemo')
+let fish = new Fish('Nemo', 10)
+console.log(fish) // output: 10
 fish.sound() // output: Emits a sound
 fish.swim() // output: Fish is swimming
 // This is called inheritance. Dog, Fish class inherits from the Animal class. It has access to the sound method.
-
