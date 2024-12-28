@@ -12,7 +12,6 @@ try {
   console.log('This line of code will always be executed.')
 }
 
-// throw error
 // This block of code isn't working as expected. It should throw an error when the type of the parameters is not a number.
 /*
 // function sum(a, b) {
@@ -37,7 +36,7 @@ function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
     return console.log('Invalid input. Please provide a number.')
   }
-
+  
   return console.log(a + b)
 }
 sum('g', 5) // output: Invalid input. Please provide a number.
@@ -54,6 +53,7 @@ subtract('a', 5) // output: Invalid input. Please provide a number.
 subtract(7, 5) // output: 2
 
 
+// throw error
 // Of this way, we can throw an error when the type of the parameters is not a number.
 function multiply(a, b) {
   if (isNaN(a) || isNaN(b)) {
@@ -62,6 +62,7 @@ function multiply(a, b) {
   return console.log(a * b)
 }
 
+// catch error
 try {
   multiply(7, 5) // output: 35
   multiply('a', 5) // output: Invalid input. Please provide a number.
