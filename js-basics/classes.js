@@ -128,7 +128,18 @@ class Dog extends Animal{
   }
 }
 
+class Fish extends Animal {
+  swim() {
+    console.log('Fish is swimming')
+  }
+}
+
 let dog = new Dog('Buddy')
 dog.sound() // output: Emits a sound
 dog.run() // output: Dog is running
-// This is called inheritance. Dog class inherits from the Animal class. It has access to the sound method.
+
+let fish = new Fish('Nemo')
+fish.sound() // output: Emits a sound
+fish.swim() // output: Fish is swimming
+// This is called inheritance. Dog, Fish class inherits from the Animal class. It has access to the sound method.
+
