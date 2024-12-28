@@ -163,3 +163,28 @@ console.log(fish) // output: 10
 fish.sound() // output: Emits a sound
 fish.swim() // output: Fish is swimming
 // This is called inheritance. Dog, Fish class inherits from the Animal class. It has access to the sound method.
+
+
+// Static methods. Static methods are called on the class itself, not on the instance of the class.
+class MathOperations {
+  static sum(a, b) {
+    return a + b
+  }
+
+  static subtract(a, b) {
+    return a - b
+  }
+
+  static multiply(a, b) {
+    return a * b
+  }
+}
+
+let sum = MathOperations.sum(2, 3)
+console.log(sum) // output: 5
+
+let subtract = MathOperations.subtract(5, 3)
+console.log(subtract) // output: 2
+
+let multiply = MathOperations.multiply(2, 3)
+console.log(multiply) // output: 6
