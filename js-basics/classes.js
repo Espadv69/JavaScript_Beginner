@@ -129,6 +129,10 @@ class Dog extends Animal{
 }
 
 class Fish extends Animal {
+  constructor(size) {
+    this.size = size
+  }
+  
   swim() {
     console.log('Fish is swimming')
   }
