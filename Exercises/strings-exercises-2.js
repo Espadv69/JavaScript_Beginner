@@ -118,6 +118,11 @@ repeatString('hello, my friends.', 3)
 
 // 9. Count Words in a Sentence
 // Todo: Write a function that counts the number of words in a given sentence.
+function countWords(sentence = '') {
+  return console.log(sentence.split(' ').filter(word => word.length > 0).length)
+}
+
+countWords('hello u all')
 
 // 10. Extract Initials
 // Todo: Write a function that takes a full name as input and returns the initials (e.g., "John Doe" -> "J.D.").
