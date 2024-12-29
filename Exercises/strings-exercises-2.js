@@ -88,7 +88,7 @@ capitalizes('hello, you all, what is going on')
 
 // 6. Replace All Occurrences
 // Todo: Write a function to replace all occurrences of a specific word in a string with another word.
-function replaceOccurrences(string, oldWord, newWord) {
+function replaceOccurrences(string = '', oldWord = '', newWord = '') {
   return console.log(string.split(oldWord).join(newWord))
 }
 
@@ -98,7 +98,7 @@ replaceOccurrences(replaceString, 'friends', 'little friends')
 
 // 7. Check for Substring
 // Todo: Write a function to check if a given substring exists within a string. Return true or false.
-function checkSubstring(string, substring) {
+function checkSubstring(string = '', substring = '') {
   return console.log(string.includes(substring))
 }
 
