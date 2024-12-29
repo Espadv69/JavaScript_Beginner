@@ -117,11 +117,43 @@ console.log(isPrime(5))
 
 // 8. Count vowels in a string.
 // Todo: Create a function that takes a string and counts how many vowels it contains. Use a loop to iterate through the characters.
+function counterVowels(string = '') {
+  let vowels = 'aeiouAEIOU'
+  let counter = 0
+
+  for (let char of string) {
+    if (vowels.includes(char)) {
+      counter++
+    }
+  }
+
+  return counter
+}
+console.log(counterVowels('hola mundito'))
 
 
 // 9. Generate multiplication table.
 // Todo: Write a program that generates the multiplication table (from 1 to 10) using a loop.
+for (let nLeft = 1; nLeft <= 10; nLeft++) {
+  for (let nRight = 1; nRight <= 10; nRight++) {
+    console.log(`${nLeft} * ${nRight} = `, nLeft * nRight)
+  }
+}
 
 
 // 10. Fibonacci sequence.
 // Todo: Write a function that generates the first numbers in the Fibonacci sequence using a loop.
+let n1 = 0
+let n2 = 1
+let nextNumber
+
+function fibonacci(number) {
+  for (let i = 1; i <= number; i++) {
+    console.log(n1)
+    nextNumber = n1 + n2
+    n1 = n2
+    n2 = nextNumber
+  }
+}
+
+fibonacci(15)
