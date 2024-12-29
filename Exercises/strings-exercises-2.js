@@ -124,5 +124,18 @@ function countWords(sentence = '') {
 
 countWords('hello u all')
 
+
 // 10. Extract Initials
 // Todo: Write a function that takes a full name as input and returns the initials (e.g., "John Doe" -> "J.D.").
+function extractInitials(fullName) {
+  let words = fullName.split(' ')
+  let initials = ''
+
+  for (let word of words) {
+    initials += word[0].toUpperCase() + '.'
+  }
+
+  return console.log(initials)
+}
+
+extractInitials('aitor diaz villa')
