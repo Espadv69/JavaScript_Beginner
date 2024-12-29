@@ -85,11 +85,10 @@ function factorialCalculator(number) {
   for (let i = 1; i <= number; i++) {
     factor *= i
   }
-
   return factor
 }
 
-console.log('Factorial calculator: ' + factorialCalculator(5))
+console.log('factorial calculator: ' + factorialCalculator(5))
 
 // 6. Find the largest number is an array.
 // Todo: Write a function that takes an array of numbers and finds the largest one using a loop.
