@@ -98,6 +98,14 @@ replaceOccurrences(replaceString, 'friends', 'little friends')
 
 // 7. Check for Substring
 // Todo: Write a function to check if a given substring exists within a string. Return true or false.
+function checkSubstring(string, substring) {
+  return console.log(string.includes(substring))
+}
+
+let checkString = 'I like pizza'
+checkSubstring(checkString, 'pizza')
+checkSubstring(checkString, 'pasta')
+
 
 // 8. Repeat a String
 // Todo: Write a function that takes a string and a number as input and returns the string repeated that many times.
