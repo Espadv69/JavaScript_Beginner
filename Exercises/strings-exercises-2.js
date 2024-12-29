@@ -50,8 +50,25 @@ function countVowels(string = '') {
 
 countVowels('hola amigos')
 
+
 // 4. Find the Longest Word
 // Todo: Write a function that takes a sentence as input and returns the longest word in that sentence.
+function longestWord(string = '') {
+  let words = string.split(' ')
+  let longest = ''
+
+  for (let word of words) {
+    if (word.length > longest.length) {
+      longest = word
+    }
+  }
+
+  return console.log(longest)
+}
+
+let findLongestWord = 'hello, my friends, what are you doing now, i am listening to music'
+longestWord(findLongestWord)
+
 
 // 5. Capitalize the First Letter
 // Todo: Create a function that capitalizes the first letter of each word in a given sentence.
