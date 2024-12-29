@@ -1,20 +1,37 @@
 // 1. Reverse a String
 // Todo: Write a function that takes a string as input and returns the string reversed.
-function reversedString(string) {
-  let containerReversedString = ''
+function reversedString(string = '') {
+  let container = ''
 
   for (let i = string.length - 1; i >= 0; i--) {
-    containerReversedString += string[i]
+    container += string[i]
   }
 
-  return console.log(containerReversedString)
+  return console.log(container)
 }
 
 let myString = 'hello, world!'
 reversedString(myString)
 
+
 // 2. Check for Palindrome
 // Todo: Create a function that checks whether a given string is a palindrome (reads the same backward as forward).
+function isPalindrome(string = '') {
+  let container = ''
+
+  for (let i = string.length - 1; i >= 0; i--) {
+    container += string[i]
+  }
+
+  if (container === string) {
+    console.log('Is a palindrome')
+  } else {
+    console.log('Is not a palindrome')
+  }
+}
+
+isPalindrome('oso')
+
 
 // 3. Count Vowels
 // Todo: Write a function to count the number of vowels (a, e, i, o, u) in a given string.
