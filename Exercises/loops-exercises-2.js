@@ -90,9 +90,15 @@ function factorialCalculator(number) {
 
 console.log('factorial calculator: ' + factorialCalculator(5))
 
-// 6. Find the largest number is an array.
-// Todo: Write a function that takes an array of numbers and finds the largest one using a loop.
 
+// 6. Find the largest number in an array.
+// Todo: Write a function that takes an array of numbers and finds the largest one using a loop.
+let largest = [10, 20, 30, 15, 19, 35, 5, 17]
+function findLargest(array) {
+  return array.reduce((largest, current) => (current > largest ? current : largest))
+}
+
+console.log('FindLargest: ' + findLargest(largest))
 
 // 7. Check if a number is prime.
 // Todo: Write a function that checks if a given number is prime.
