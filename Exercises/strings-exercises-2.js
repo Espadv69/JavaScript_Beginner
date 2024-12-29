@@ -85,8 +85,16 @@ function capitalizes(string = '') {
 
 capitalizes('hello, you all, what is going on')
 
+
 // 6. Replace All Occurrences
 // Todo: Write a function to replace all occurrences of a specific word in a string with another word.
+function replaceOccurrences(string, oldWord, newWord) {
+  return console.log(string.split(oldWord).join(newWord))
+}
+
+let replaceString = 'hello, my friends, you all are mi friends since 10 years ago, you all are my real best friends.'
+replaceOccurrences(replaceString, 'friends', 'little friends')
+
 
 // 7. Check for Substring
 // Todo: Write a function to check if a given substring exists within a string. Return true or false.
