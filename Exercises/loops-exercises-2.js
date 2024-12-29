@@ -20,15 +20,62 @@ for (let i = 0; i <= 100; i++) {
 
 // 2. Sum of array elements.
 // Todo: Create a function that takes an array of numbers as input and returns the sum of all its elements using a loop.
+let numbersArray = [1, 2, 3, 4, 5]
+function sumNumbersArray(array) {
+  let sum = 0
+
+  for (let number of array) {
+    sum += number
+  }
+
+  const total = sum
+  return total
+}
+
+console.log('sumNumbersArray: ' + sumNumbersArray(numbersArray))
 
 
-// 3. FizzBuzz Chanllenge.
+// 3. FizzBuzz Challenge.
 // Todo: Write a program that prints numbers from 1 to 100. For multiples of 3, print 'Fizz' instead of the number, for multiples of 5, print 'Buzz' instead of the number, and for numbers that are multiples of both, print 'FizzBuzz'.
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log('FizzBuzz')
+  } else if (i % 5 == 0) {
+    console.log('Buzz')
+  } else if (i % 3 == 0) {
+    console.log('Fizz')
+  } else {
+    console.log(i)
+  }
+}
+
+counter = 1
+while (counter <= 100) {
+  if (counter % 3 == 0 && counter % 5 == 0) {
+    console.log('FizzBuzz')
+  } else if (counter % 5 == 0) {
+    console.log('Buzz')
+  } else if (counter % 3 == 0) {
+    console.log('Fizz')
+  } else {
+    console.log(counter)
+  }
+  counter++
+}
 
 
 // 4. Reverse a string.
 // Todo: Write a function that takes a string as input and reverses it using a loop.
+let myString = 'Reverse string'
+function reverseString(string) {
+  let reverseString = ''
+  for (let i = string.length - 1; i >= 0; i--) {
+    reverseString += string[i]
+  }
+  return reverseString
+}
 
+console.log(reverseString(myString))
 
 // 5. Factorial Calculator.
 // Todo: Write a function that calculates the factorial of a given number using a loop.
