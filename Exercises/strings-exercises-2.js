@@ -1,5 +1,17 @@
 // 1. Reverse a String
 // Todo: Write a function that takes a string as input and returns the string reversed.
+function reversedString(string) {
+  let containerReversedString = ''
+
+  for (let i = string.length - 1; i >= 0; i--) {
+    containerReversedString += string[i]
+  }
+
+  return console.log(containerReversedString)
+}
+
+let myString = 'hello, world!'
+reversedString(myString)
 
 // 2. Check for Palindrome
 // Todo: Create a function that checks whether a given string is a palindrome (reads the same backward as forward).
