@@ -102,6 +102,17 @@ console.log('FindLargest: ' + findLargest(largest))
 
 // 7. Check if a number is prime.
 // Todo: Write a function that checks if a given number is prime.
+function isPrime(number = Number) {
+  if (number < 2) return false
+
+  for (let i = 2; i < number; i++) {
+    if (number % i == 0) return false
+  }
+
+  return true
+}
+
+console.log(isPrime(5))
 
 
 // 8. Count vowels in a string.
