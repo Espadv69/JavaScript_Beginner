@@ -49,20 +49,21 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
-counter = 1
-while (counter <= 100) {
-  if (counter % 3 == 0 && counter % 5 == 0) {
-    console.log('FizzBuzz')
-  } else if (counter % 5 == 0) {
-    console.log('Buzz')
-  } else if (counter % 3 == 0) {
-    console.log('Fizz')
-  } else {
-    console.log(counter)
-  }
-  counter++
-}
-
+/* While loop
+*counter = 1
+*while (counter <= 100) {
+  *if (counter % 3 == 0 && counter % 5 == 0) {
+    *console.log('FizzBuzz')
+  *} else if (counter % 5 == 0) {
+    *console.log('Buzz')
+  *} else if (counter % 3 == 0) {
+    *console.log('Fizz')
+  *} else {
+    *console.log(counter)
+  *}
+  *counter++
+*}
+*/
 
 // 4. Reverse a string.
 // Todo: Write a function that takes a string as input and reverses it using a loop.
@@ -75,11 +76,20 @@ function reverseString(string) {
   return reverseString
 }
 
-console.log(reverseString(myString))
+console.log('Reverse string: ' + reverseString(myString))
 
 // 5. Factorial Calculator.
 // Todo: Write a function that calculates the factorial of a given number using a loop.
+function factorialCalculator(number) {
+  let factor = 1
+  for (let i = 1; i <= number; i++) {
+    factor *= i
+  }
 
+  return factor
+}
+
+console.log('Factorial calculator: ' + factorialCalculator(5))
 
 // 6. Find the largest number is an array.
 // Todo: Write a function that takes an array of numbers and finds the largest one using a loop.
