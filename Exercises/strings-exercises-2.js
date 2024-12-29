@@ -35,6 +35,20 @@ isPalindrome('oso')
 
 // 3. Count Vowels
 // Todo: Write a function to count the number of vowels (a, e, i, o, u) in a given string.
+function countVowels(string = '') {
+  let vowels = 'aeiouAEIOU'
+  let counter = 0
+
+  for (let char of string) {
+    if (vowels.includes(char)) {
+      counter++
+    }
+  }
+
+  return console.log(counter)
+}
+
+countVowels('hola amigos')
 
 // 4. Find the Longest Word
 // Todo: Write a function that takes a sentence as input and returns the longest word in that sentence.
