@@ -72,6 +72,18 @@ longestWord(findLongestWord)
 
 // 5. Capitalize the First Letter
 // Todo: Create a function that capitalizes the first letter of each word in a given sentence.
+function capitalizes(string = '') {
+  let words = string.split(' ')
+  let container = ''
+
+  for (let word of words) {
+    container += word[0].toUpperCase() + word.slice(1) + ' '
+  }
+
+  return console.log(container)
+}
+
+capitalizes('hello, you all, what is going on')
 
 // 6. Replace All Occurrences
 // Todo: Write a function to replace all occurrences of a specific word in a string with another word.
