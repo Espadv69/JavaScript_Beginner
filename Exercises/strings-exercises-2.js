@@ -109,6 +109,12 @@ checkSubstring(checkString, 'pasta')
 
 // 8. Repeat a String
 // Todo: Write a function that takes a string and a number as input and returns the string repeated that many times.
+function repeatString(string = '', number = Number) {
+  return console.log((string + ' ').repeat(number).trim())
+}
+
+repeatString('hello, my friends.', 3)
+
 
 // 9. Count Words in a Sentence
 // Todo: Write a function that counts the number of words in a given sentence.
