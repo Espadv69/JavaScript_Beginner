@@ -100,4 +100,5 @@ console.log(combineArray.sort()) // sort() to sort the array alphabetically.
 // Todo:
 // - Use the `map` method with a callback function that converts strings to uppercase.
 // - Print the new array to the console.
-
+let fruitsToUpper = fruits.map((fruit) => fruit.toUpperCase())
+console.log(fruitsToUpper)
