@@ -36,6 +36,9 @@ console.log(fruits)
 // - Use `shift` to remove the first element.
 // - Use `pop` to remove the last element.
 // - Print the updated array.
+fruits.shift()
+fruits.pop()
+console.log(fruits)
 
 
 // 5. Iterate Over an Array
