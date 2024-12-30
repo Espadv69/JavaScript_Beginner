@@ -95,13 +95,28 @@ function countProperties() {
 
 countProperties()
 
+
 // 9. Compare Two Objects
 // Description: Write a function to compare two objects for equality (keys and values).
 // Todo:
 // - Create a function named `compareObjects`.
 // - Compare the keys and values of both objects.
 // - Return `true` if all keys and values are equal, otherwise return `false`.
+function compareObjects(object1, object2) {
+  let obj1 = Object.keys(object1)
+  let obj2 = Object.keys(object2)
 
+  if (obj1.length !== obj2.length) return false
+
+  for (let keys in obj1) {
+    if (obj1[keys] !== obj2[keys]) return false
+  }
+
+  return true
+}
+
+console.log(compareObjects(person, person))
+console.log(compareObjects(person, objectCopy))
 
 
 // 10. Object with Methods
