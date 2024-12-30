@@ -6,11 +6,16 @@
 let fruits = ['strawberry', 'pear', 'tomato', 'coconut', 'banana']
 console.log(fruits)
 
+
 // 2. Access Array Elements
 // Description: Access and print the first and last elements of the `fruits` array.
 // Todo:
 // - Use array indexing to access the first and last elements.
 // - Print the accessed elements to the console.
+let firstFruit = fruits[0]
+let lastFruit = fruits[fruits.length - 1]
+
+console.log(firstFruit, lastFruit)
 
 
 // 3. Add Elements to an Array
