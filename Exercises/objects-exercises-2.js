@@ -72,12 +72,14 @@ let objectCopy = Object.assign({}, product)
 let productCopy = {...objectCopy}
 console.log(productCopy)
 
+
 // 7. Convert an Object to an Array
 // Description: Convert the `product` object into an array of key-value pairs.
 // Todo:
 // - Use `Object.entries` to convert the object to an array.
 // - Print the resulting array to the console.
-
+let productArray = Object.entries(product)
+console.log(productArray)
 
 
 // 8. Count Object Properties
@@ -86,8 +88,12 @@ console.log(productCopy)
 // - Create a function named `countProperties`.
 // - Use `Object.keys` to get all the keys of the object.
 // - Return the length of the array of keys.
+function countProperties() {
+  let properties = Object.keys(product)
+  return console.log(properties.length)
+}
 
-
+countProperties()
 
 // 9. Compare Two Objects
 // Description: Write a function to compare two objects for equality (keys and values).
