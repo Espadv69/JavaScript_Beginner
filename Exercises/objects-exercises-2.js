@@ -126,3 +126,30 @@ console.log(compareObjects(person, objectCopy))
 // - Add properties `number1` and `number2`.
 // - Add methods `add`, `subtract`, `multiply`, and `divide`.
 // - Print the result of calling each method.
+
+let calculator = {
+
+  sum(num1 = Number, num2 = Number) {
+    return num1 + num2
+  },
+
+  subtract(num1 = Number, num2 = Number) {
+    return num1 - num2
+  },
+
+  multiply(num1 = Number, num2 = Number) {
+    return num1 * num2
+  },
+
+  divide(num1 = Number, num2 = Number) {
+    return (num1 / num2).toFixed(2)
+  },
+
+}
+
+let {sum, subtract, multiply, divide} = calculator
+
+console.log(sum(1, 4))
+console.log(subtract(5, 4))
+console.log(multiply(4, 4))
+console.log(divide(7, 4))
