@@ -81,6 +81,8 @@ console.log(fruits)
 // Todo:
 // - Use the `filter` method with an appropriate callback function.
 // - Print the filtered array to the console.
+let filterFruits = fruits.filter((fruit) => fruit.length > 5)
+console.log(filterFruits)
 
 
 // 9. Combine Two Arrays
