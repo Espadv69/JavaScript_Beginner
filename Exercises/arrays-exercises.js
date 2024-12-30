@@ -54,7 +54,9 @@ for (let fruit of fruits) {
   console.log('fruit:', fruit)
 }
 
-fruits.map((fruit) => { console.log('fruit:', fruit) })
+fruits.map((fruit) => { console.log('fruit:', fruit) }) // Consumes more memory, because creates a new array.
+
+fruits.forEach((fruit) => { console.log('fruit:', fruit) }) // Consumes less memory, because it doesn't create a new array. This iterates over the array.
 
 
 // 6. Find an Element in an Array
@@ -62,6 +64,8 @@ fruits.map((fruit) => { console.log('fruit:', fruit) })
 // Todo:
 // - Use the `includes` method to check for the presence of "apple".
 // - Print `true` or `false` based on the result.
+console.log(fruits.includes('apple'))
+console.log(fruits.includes('strawberry'))
 
 
 // 7. Sort an Array
@@ -69,7 +73,8 @@ fruits.map((fruit) => { console.log('fruit:', fruit) })
 // Todo:
 // - Use the `sort` method to sort the array.
 // - Print the sorted array to the console.
-
+fruits.sort()
+console.log(fruits)
 
 // 8. Filter an Array
 // Description: Filter the `fruits` array to include only fruits with names longer than 5 characters.
