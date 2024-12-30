@@ -3,7 +3,8 @@
 // Todo:
 // - Declare an array named `fruits` with at least 5 elements.
 // - Print the array to the console.
-
+let fruits = ['strawberry', 'pear', 'tomato', 'coconut', 'banana']
+console.log(fruits)
 
 // 2. Access Array Elements
 // Description: Access and print the first and last elements of the `fruits` array.
