@@ -67,8 +67,10 @@ for (let item in product) {
 // - Use `Object.assign` to create a copy of the object.
 // - Use the spread operator to create another copy.
 // - Modify the original object and verify that the copies remain unchanged.
-
-
+product.name = 'Motorcycle'
+let objectCopy = Object.assign({}, product)
+let productCopy = {...objectCopy}
+console.log(productCopy)
 
 // 7. Convert an Object to an Array
 // Description: Convert the `product` object into an array of key-value pairs.
