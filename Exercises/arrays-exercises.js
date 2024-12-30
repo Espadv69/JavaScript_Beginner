@@ -46,6 +46,13 @@ console.log(fruits)
 // Todo:
 // - Use a `for` loop to go through all elements in the array.
 // - Print each element within the loop.
+for (let i = 0; i < fruits.length; i++) {
+  console.log('fruit:', fruits[i])
+}
+
+for (let fruit of fruits) {
+  console.log('fruit:', fruit)
+}
 
 
 // 6. Find an Element in an Array
