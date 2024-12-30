@@ -54,6 +54,8 @@ for (let fruit of fruits) {
   console.log('fruit:', fruit)
 }
 
+fruits.map((fruit) => { console.log('fruit:', fruit) })
+
 
 // 6. Find an Element in an Array
 // Description: Check if the fruit "apple" exists in the `fruits` array.
