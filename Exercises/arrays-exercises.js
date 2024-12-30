@@ -24,6 +24,10 @@ console.log(firstFruit, lastFruit)
 // - Use `unshift` to add an element at the beginning.
 // - Use `push` to add an element at the end.
 // - Print the updated array.
+fruits.unshift('grapes')
+fruits.push('kiwi')
+
+console.log(fruits)
 
 
 // 4. Remove Elements from an Array
