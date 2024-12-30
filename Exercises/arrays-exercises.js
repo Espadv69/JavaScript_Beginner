@@ -91,7 +91,9 @@ console.log(filterFruits)
 // - Declare a `vegetables` array with at least 3 elements.
 // - Use the `concat` method to combine `fruits` and `vegetables`.
 // - Print the combined array to the console.
-
+let vegetables = ['broccoli', 'carrot', 'lettuce']
+let combineArray = vegetables.concat(fruits)
+console.log(combineArray.sort()) // sort() to sort the array alphabetically.
 
 // 10. Map an Array
 // Description: Create a new array from the `fruits` array where each fruit name is converted to uppercase.
